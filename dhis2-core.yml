@@ -21,7 +21,7 @@ services:
     volumes:
       - ./datadb:/var/lib/postgresql/data
     environment:
-      POSTGRES_DB: dhis2
+      POSTGRES_DB: dhis
       POSTGRES_USER: dhis
       POSTGRES_PASSWORD: dhis
   proxy:
