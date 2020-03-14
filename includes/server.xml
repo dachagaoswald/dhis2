@@ -28,7 +28,7 @@ Disclaimer: This is for testing purposes only, the Maitainer, NCP(the owner) or 
   <Connector port="8080"
              protocol="HTTP/1.1"
              connectionTimeout="20000"
-             redirectPort="8443" />
+             redirectPort="8443" relaxedQueryChars="[,]" />
 
   <Engine name="Catalina"
           defaultHost="localhost">
